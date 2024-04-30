@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Phone Number</title>
+  </head>
+
+  <body>
+    <main class="main">
+      <ul class="collection"></ul>
+
+      <div class="main__inner">
+        <h1 class="tel">+000 00 000 0000</h1>
+        <button class="btn"></button>
+        <button class="btn__add" onclick="modulAdded()">Add number</button>
+      </div>
+
+      <div class="modul">
+        <form action="">
+          <label for="">Phone number kiriting!</label>
+          <input
+            maxlength="12"
+            minlength="10"
+            placeholder="Number"
+            id="numbers"
+            type="number"
+          />
+          <div class="modul__btns">
+            <button class="modul__btn modul__btn__add">add</button>
+            <button class="modul__btn modul__btn__cencel">cencel</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+
+  <script src="./js/main.js"></script>
+</html>
